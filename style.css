@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 * {
   box-sizing: border-box;
+  font-family: "Share Tech Mono", monospace;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +23,6 @@ table {
 
 td {
   width: 4rem;
-  margin: 1rem;
 }
 
 input[type="button"] {
@@ -36,7 +38,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-  background-color: #313131;
+  background-color: #ff9500;
   color: #f2f3f7;
 }
 
@@ -66,7 +68,7 @@ input[type="text"] {
   background-color: #f2f3f7;
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: 42px 44px 100px 0px rgba(103, 110, 204, 0.3);
+  box-shadow: 42px 44px 100px 0px rgba(0, 0, 0, 0.199);
 }
 
 .title {
