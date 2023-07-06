@@ -49,8 +49,8 @@ input[type="button"].signs {
 }
 
 input[type="button"].signs:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #ff9500;
+  color: #fff;
 }
 
 input[type="text"] {
