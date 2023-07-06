@@ -43,7 +43,7 @@ input[type="button"]:hover {
 }
 
 input[type="button"].signs {
-  background-color: #000;
+  background-color: #000000e8;
   color: #fff;
   transition: all ease-in-out 0.2s;
 }
@@ -64,8 +64,21 @@ input[type="text"] {
   font-size: 2rem;
 }
 
+footer {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #313131;
+}
+a:hover {
+  color: #000000;
+}
+
 .wrapper {
-  background-color: #f2f3f7;
+  background-color: #f2f3f784;
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 42px 44px 100px 0px rgba(0, 0, 0, 0.199);
@@ -73,4 +86,5 @@ input[type="text"] {
 
 .title {
   margin-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
 }
